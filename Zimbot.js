@@ -511,8 +511,8 @@ hydratedContentText: DADYDR,
 hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
 hydratedButtons:  [{        
     "urlButton": {
-      "displayText": "SUBSCRIBE",
-      "url": "https://www.youtube.com/c/DRIPSOFC"
+      "displayText": "FOLLOW",
+      "url": "https://www.instagram.com/joker_.mp4/"
     }
 }, {
 quickReplyButton: {
@@ -564,8 +564,8 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
   hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
   hydratedButtons:  [{        
       "urlButton": {
-        "displayText": "SUBSCRIBE",
-        "url": "https://www.youtube.com/c/DRIPSOFC"
+        "displayText": "FOLLOW",
+        "url": "https://www.instagram.com/joker_.mp4/"
       }
   }, {
   quickReplyButton: {
@@ -613,8 +613,8 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
           hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
           hydratedButtons:  [{        
               "urlButton": {
-                "displayText": "SUBSCRIBE",
-                "url": "https://www.youtube.com/c/DRIPSOFC"
+                "displayText": "FOLLOW",
+                "url": "https://www.instagram.com/joker_.mp4/"
               }
           }, {
           quickReplyButton: {
@@ -662,8 +662,8 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
             hydratedButtons:  [{        
                 "urlButton": {
-                  "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "displayText": "FOLLOW",
+                  "url": "https://www.instagram.com/joker_.mp4/"
                 }
             }, {
             quickReplyButton: {
@@ -711,8 +711,8 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
             hydratedButtons:  [{        
                 "urlButton": {
-                  "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "displayText": "FOLLOW",
+                  "url": "https://www.instagram.com/joker_.mp4/"
                 }
             }, {
             quickReplyButton: {
@@ -761,8 +761,8 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
               mentions: [sender],
               hydratedButtons: [{        
               "urlButton": {
-              "displayText": "SUBSCRIBE",
-              "url": "https://www.youtube.com/c/DRIPSOFC"
+              "displayText": "FOLLOW",
+              "url": "https://www.instagram.com/joker_.mp4/"
               }
             }, {
               quickReplyButton: {
@@ -812,8 +812,8 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
               mentions: [sender],
               hydratedButtons: [{        
               "urlButton": {
-              "displayText": "SUBSCRIBE",
-              "url": "https://www.youtube.com/c/DRIPSOFC"
+              "displayText": "FOLLOW",
+              "url": "https://www.instagram.com/joker_.mp4/"
               }
             }, {
               quickReplyButton: {
@@ -858,8 +858,8 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
             hydratedButtons:  [{        
                 "urlButton": {
-                  "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "displayText": "FOLLOW",
+                  "url": "https://www.instagram.com/joker_.mp4/"
                 }
             }, {
             quickReplyButton: {
@@ -3297,7 +3297,7 @@ break
  case 'git': case 'gitclone':
 reply(mess.wait)
  let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
- if(!args[0]) throw 'link github  EXAMPLE: https://github.com/zim-bot/zim-bot-md'
+ if(!args[0]) throw 'link github  EXAMPLE: https://github.com/J0kerser'
 if (!regex1.test(args[0])) throw 'link!'
    let [, user, repo] = args[0].match(regex1) || []
     repo = repo.replace(/.git$/, '')
@@ -3327,12 +3327,12 @@ if (!regex1.test(args[0])) throw 'link!'
 				truteh = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
 			ZimBotInc.sendMessage(m.chat, {image: truteh, caption: '*Truth*\n\n'+ ttrth, quoted: m,contextInfo: { externalAdReply:{
         title:"ZIM BOT V4",
-        body:"SUB DRIPS OFC",
+        body:"SHOW SOME <3",
         showAdAttribution: true,
         mediaType:2,
         thumbnail: fs.readFileSync(`./drips.jpg`) ,
-        mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-        sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
+        mediaUrl:`https://www.instagram.com/joker_.mp4/`, 
+        sourceUrl: `https://www.instagram.com/joker_.mp4/` }}}, {quoted: m})
 break
 case 'ghsearch': 
        case 'githubsearch': 
@@ -3423,7 +3423,7 @@ for (let yoi of anu) {
  }
   }]
  fatihgans = fs.readFileSync('./Zimbot/drips.jpg')
- let txt = `「 ZIM BOT BROADCAST 」\n\n${text}`
+ let txt = `「 BOT BROADCAST 」\n\n${text}`
  ZimBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 }
 reply('*Broadcast Success*')
@@ -4572,12 +4572,12 @@ case 'fbdl': case 'fb': case 'facebook': case 'fbvideo': {
      for (let i of data.result) {  
     ZimBotInc.sendMessage(m.chat, { video: { url: i.url }, jpegThumbnail:buf, mimetype: 'video/mp4', caption: `*◉ Quality :* ${i.quality}` ,  quoted: m,contextInfo: { externalAdReply:{
       title:"ZIM BOT V4",
-      body:"SUBSCRIBE DRIPS OFC",
+      body:"SHOW SOME <3",
       showAdAttribution: true,
       mediaType:2,
       thumbnail: fs.readFileSync(`./drips.jpg`) ,
-      mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-      sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
+      mediaUrl:`https://www.instagram.com/joker_.mp4/`, 
+      sourceUrl: `https://www.instagram.com/joker_.mp4/` }}}, {quoted: m})
      
        
      }
@@ -4738,13 +4738,13 @@ hydratedContentText: listmn,
 hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
-displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+displayText: 'FOLLOW',
+url: 'https://www.instagram.com/joker_.mp4/'
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+url: 'https://github.com/Jokerser'
 }
 }, {
 quickReplyButton: {
